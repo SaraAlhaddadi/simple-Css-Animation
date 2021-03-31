@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+
+@keyframes sara {
+  0%   {background-color:white; left:0px; top:0px;}
+  5%  {background-color:cornflowerblue;left:20px; top:0px;width: 50px}
+  50%  {background-color:cornflowerblue; left:100px; top:0px;width: 200px;
+     }
+  75%  {left:100px; top:0px;width: 10px; color: black; ;text-transform: uppercase;text-decoration: underline;text-decoration-color: cornflowerblue}
+  100% {background-color:cornflowerblue; ;text-transform: uppercase;color: black;left:100px; top:0px;width: 10px }
+}
+
+        
+h1{
+ width: 100px;
+  height: 100px;
+ font-size: 200pt;
+  position: relative;
+color: white
+  
+}
+        
+ #s{
+   width: 10px;
+  height: 100px;
+  background-color:white;
+  position: relative;
+        }
+#s:hover,h1{
+           animation-name: sara;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+
+            
+  
+        }
+    </style>
+    </head>
+    
+    
+    <body><div></div>
+    <div id="s"><h1>Good</h1></div></body>
+</html>
